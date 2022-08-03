@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Choir Ministry</title>
+	<style type="text/css">
+		body{
+			background-color: skyblue;
+		}
+		.about{
+			height: 200px;
+			width: 1350px;
+			margin-top: -35px;
+			margin-left: -10px;
+			background-image: url(./images/003.JPG);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center center;
+			background-attachment: fixed;
+			position: fixed;
+			z-index: 12;
+		}
+		.us{
+			margin-left: 480px;
+			font-size: 50px;
+			padding-top: 80px;
+			/*color: purple;*/
+			text-shadow: 2px 2px purple;
+		}
+		.link{
+			margin-top: -25px;
+			margin-left: 670px;
+		}
+		a{
+			text-decoration: none;
+			color: limegreen;
+		}
+		.executives{
+			display: flex;
+		}
+		.want{
+			font-size: 30px;
+		}
+		.form{
+			position: absolute;
+			top: 700px;
+			width: 30%;
+			/*border: 2px solid black;*/
+			margin-left: 150px;
+			margin-top: 50px;
+			/*background-color: skyblue;*/
+		}
+		input{
+			width: 320px;
+			height: 40px;
+			border-left: none;
+			border-right: none;
+			border-top: none;
+			margin-bottom: 20px;
+			background-color: skyblue;
+		}
+		textarea{
+			border-right: none;
+			border-left: none;
+			border-top: none;
+			margin-bottom: 40px;
+			background-color: skyblue;
+		}
+		button{
+			margin-left: -85px;
+			width: 80px;
+			height: 40px;
+			background-color: yellow;
+			color: black;
+			border-radius: 8px;
+			font-size: 15px;
+		}
+		button:hover{
+			color: brown;
+			background-color: skyblue;
+			border: none;
+		}
+
+		@media (max-width: 500px){
+			.about{
+				width: 417px;
+				/*background-image: url(./images/014.JPG);*/
+			}
+			.us{
+				margin-left: 15px;
+				font-size: 25px;
+				padding-top: 110px;
+			}
+			.link{
+				margin-top: 20px;
+				margin-left: 20px;
+				/*font-size: 30px;*/
+			}
+			.exe{
+				font-size: 20px;
+			}
+			.executives{
+				display: block;
+			}
+			.want{
+				font-size: 15px;
+				margin-top: 50px;
+				margin-bottom: 50px;
+			}
+			.form{
+				position: absolute;
+				top: 950px;
+				width: 30%;
+				/*border: 2px solid black;*/
+				margin-left: 10px;
+				/*margin-top: 50px;*/
+				/*background-color: skyblue;*/
+			}
+			button{
+				margin-left: 235px;
+			}
+		}
+		@media (max-width: 920px){
+			.about{
+				width: 913px;
+			}
+			.us{
+				margin-left: 330px;
+				font-size: 40px;
+				padding-top: 80px;
+			}
+			.link{
+				margin-top: -20px;
+				margin-left: 450px;
+				font-size: 24px;
+			}
+			.copy{
+				font-size: 25px;
+				padding-top: 500px;
+			}
+			button{
+				margin-left: 235px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="about">
+		<h1 class="us">The Choir Ministry</h1>
+		<h3 class="link"><a href="./TWGM.html">Home</a></h3>
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<h1 class="exe" style="text-decoration: underline;">Meet The Choir Executives</h1>
+	<div class="executives">
+		<div style="background-color: rgba(0, 0, 0, 0.4);width: 210px; margin-left: 20px; padding-left: 30px; padding-top: 10px;">
+			<img src="./images/004.JPG" width="180px">
+			<p style="font-weight: bold;">Name: <em>Dr Ayeyemi E.O</em> </p>
+			<p style="font-weight: bold;">Position: <em>Choir Master</em> </p>
+		</div>
+		<div style="background-color: rgba(0, 0, 0, 0.4);width: 210px; margin-left: 20px; padding-left: 30px; padding-top: 10px;">
+			<img src="./images/005.JPG" width="180px">
+			<p style="font-weight: bold;">Name: <em>Engr Femi Jegele</em></p>
+			<p style="font-weight: bold;">Position: <em>Secretary</em></p>
+		</div>
+	</div>
+	<p class="want"><em>Do you want to be a part of the church choir?<br>Send a message below :</em></p>
+	<div>
+		<div class="form">
+			<!-- https://wa.me/+23409030788045 -->
+			<form action="https://wa.me/+23409030788045" class="subForm" method="get">
+				<label for="Phone"></label>
+				<input type="text" name="" required placeholder="Phone Number">
+				<label for="adress"></label>
+				<input type="text" name="" required placeholder="Adress">
+				<textarea cols="41" rows="10" required placeholder="Reason for joining"></textarea>
+				<button>Send</button>
+			</form>
+		</div>
+	</div>
+	<p class="copy" style="color: purple; margin-top: 550px"><em><sup>&copy;</sup>THE TRUE WAY GOSPEL MISSION</em></p>
+
+</body>
+</html>

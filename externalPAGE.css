@@ -1,0 +1,1217 @@
+body{
+	background-image: url(./images/001.JPG);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+header{
+	height: 60px;
+	background-color: black;
+	color: white;
+	margin-top: -8px;
+	/*margin-right: -7px;*/
+	width: 1350px;
+	margin-left: -10px;
+	z-index: 12;
+	position: fixed;
+	box-sizing: border-box;
+}
+.head{
+	margin-top: 53px;
+	z-index: 12;
+	position: fixed;
+}
+.logo{
+	margin-left: 2px;
+	margin-top: -15px;
+}
+.true{
+	margin-top: -53px;
+	margin-left: 100px;
+	font-size: 23px;
+	font-family: cursive;
+	color: white;
+}
+.motto{
+	margin-top: -29px;
+	margin-left: 130px;
+	font-size: 12px;
+	color: white;
+}
+.links{
+	margin-top: -50px;
+	margin-left: 700px;
+	font-size: 23px;
+	/*text-transform: uppercase;*/
+	color: white;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+a:active{
+	color: red;
+}
+.fixed{
+	position: fixed;
+	z-index: 12;
+}
+.late{
+	margin-left: 900px;
+	position: absolute;
+	top: 300px;
+	font-size: 30px;
+}
+.schoo{
+	background-color: skyblue;/*rgba(178, 190, 181, 0.8);*/
+	height: 20px;
+	/*width: 220px;*/
+	padding-right: 5px;
+	padding-left: 7px;
+	border: 1px dashed red;
+	border-radius: 4px;
+	padding-bottom: 2px;
+}
+.se{
+	background-color: skyblue;/*rgba(178, 190, 181, 0.8);*/
+	height: 20px;
+	/*width: 220px;*/
+	padding-right: 5px;
+	padding-left: 7px;
+	border: 1px dashed red;
+	border-radius: 4px;
+	padding-bottom: 2px;
+}
+.stud{
+	background-color: skyblue;/*rgba(178, 190, 181, 0.8);*/
+	height: 33px;
+	width: 155px;
+	padding-right: 2px;
+	padding-left: 7px;
+	border: 1px dashed red;
+	border-radius: 4px;
+	padding-bottom: 2px;
+	margin-left: 130px;
+}
+#latest:hover{
+	border: none;
+	background-color: purple;
+}
+.stud:hover{
+	border: none;
+	background-color: purple;
+}
+.need{
+	margin-left: 1050px;
+	position: absolute;
+	top: 530px;
+	background-color: rgba(178, 190, 181, 0.8);
+	height: 20px;
+	width: 170px;
+	padding-left: 7px;
+	border-radius: 4px;
+}
+#help{
+	color: black;
+}
+.footimg{
+	position: absolute;
+	top: -14px;
+	margin-left: 8px;
+}
+.dive{
+	position: absolute;
+	top: 900px;
+	background-color: skyblue;
+	color: white;
+	width: 1350px;
+	margin-left: -9px;
+	height: 80px;
+	padding-top: 20px;
+	font-family: sans-serif;
+}
+.labor{
+	margin-left: 370px;
+	font-size: 22px;
+	margin-top: -60px;
+
+}
+.come{
+	margin-left: 55px;
+	font-size: 30px;
+	margin-top: 15px;
+	font-weight: bolder;
+	font-family: cursive;
+	/*text-decoration: underline;*/
+	color: purple;
+	text-shadow: 2px 2px gold;
+}
+.wow{
+	position: absolute;
+	top: 1000px;
+	margin-left: -9px;
+	background-color: white;
+	color: black;
+	width: 1350px;
+	height: 1150px;
+}
+.steps{
+	position: absolute;
+	margin-left: 550px;
+	font-size: 40px;
+	font-family: fantasy;
+	letter-spacing: 2px;
+	text-decoration-line: underline;
+}
+.form{
+	position: absolute;
+	top: 1080px;
+	width: 30%;
+	/*border: 2px solid black;*/
+	margin-left: 150px;
+	margin-top: 50px;
+}
+input{
+	width: 320px;
+	height: 40px;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	margin-bottom: 20px;
+}
+textarea{
+	border-right: none;
+	border-left: none;
+	border-top: none;
+	margin-bottom: 40px;
+}
+button{
+	margin-left: -85px;
+	width: 80px;
+	height: 40px;
+	background-color: yellow;
+	color: black;
+	border-radius: 8px;
+	font-size: 15px;
+}
+button:hover{
+	color: brown;
+	background-color: skyblue;
+	border: none;
+}
+.pray{
+	position: absolute;
+	top: 1200px;
+	margin-left: 550px;
+	border: 2px solid red;
+	border-radius: 50%;
+}
+.sins1{
+	position: absolute;
+	top: 1100px;
+	margin-left: 900px;
+	background-color: yellow;
+	color: brown;
+	width: 340px;
+	height: 35px;
+	padding-top: 10px;
+	padding-left: 25px;
+	font-size: 21px;
+	font-weight: bolder;
+	border-radius: 7px;
+}
+.sins2{
+	position: absolute;
+	top: 1153px;
+	margin-left: 900px;
+	background-color: yellow;
+	color: brown;
+	width: 340px;
+	height: 35px;
+	padding-top: 10px;
+	padding-left: 25px;
+	font-size: 21px;
+	font-weight: bolder;
+	border-radius: 7px;
+}
+.sins3{
+	position: absolute;
+	top: 1206px;
+	margin-left: 900px;
+	background-color: yellow;
+	color: brown;
+	width: 340px;
+	height: 35px;
+	padding-top: 10px;
+	padding-left: 25px;
+	font-size: 21px;
+	font-weight: bolder;
+	border-radius: 7px;
+}
+.sins4{
+	position: absolute;
+	top: 1259px;
+	margin-left: 900px;
+	background-color: yellow;
+	color: brown;
+	width: 340px;
+	height: 35px;
+	padding-top: 10px;
+	padding-left: 25px;
+	font-size: 21px;
+	font-weight: bolder;
+	border-radius: 7px;
+}
+.sins5{
+	position: absolute;
+	top: 1312px;
+	margin-left: 900px;
+	background-color: yellow;
+	color: brown;
+	width: 340px;
+	height: 58px;
+	padding-top: 10px;
+	padding-left: 25px;
+	font-size: 21px;
+	font-weight: bolder;
+	border-radius: 7px;
+}
+.sins6{
+	position: absolute;
+	top: 1388px;
+	margin-left: 900px;
+	background-color: yellow;
+	color: brown;
+	width: 340px;
+	height: 58px;
+	padding-top: 10px;
+	padding-left: 25px;
+	font-size: 21px;
+	font-weight: bolder;
+	border-radius: 7px;
+}
+.ending{
+	position: absolute;
+	top: 1520px;
+	width: 1350px;
+	margin-left: -9px;
+	background-color: skyblue;
+	height: 150px;
+
+}
+.log0{
+	position: absolute;
+	top: 1786px;
+	margin-left: 460px;
+}
+.the{
+	position: absolute;
+	top: 1820px;
+	margin-left: 600px;
+	font-size: 20px;
+}
+.mot{
+	font-size: 15px;
+	color: purple;
+	margin-left: 5px;
+}
+.foot{
+	position: absolute;
+	top: 1970px;
+	margin-left: 550px;
+}
+.about{
+	color: black;
+	font-size: 25px;
+	background-color: mintcream;
+	height: 80px;
+	width: 90px;
+	position: absolute;
+	top: 50px;
+	margin-left: 650px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	font-family: sans-serif;
+	display: none;
+}
+.ministry{
+	color: black;
+	font-size: 18px;
+	background-color: mintcream;
+	height: 190px;
+	width: 180px;
+	position: absolute;
+	top: 50px;
+	margin-left: 655px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	font-family: monospace;
+	line-height: 25px;
+	/*display: none;*/
+}
+.min{
+	color: black;
+}
+#cE{
+	font-size: 15px;
+}
+.min:hover{
+	color: red;
+}
+.educate{
+	color: black;
+	font-size: 18px;
+	background-color: mintcream;
+	height: 100px;
+	width: 160px;
+	position: absolute;
+	top: 75px;
+	margin-left: 485px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	font-family: monospace;
+	line-height: 25px;
+	/*display: none;*/
+}
+.edu{
+	text-decoration: none;
+	color: black;
+}
+.edu:hover{
+	color: red;
+}
+.sermon{
+	color: black;
+	font-size: 18px;
+	background-color: mintcream;
+	height: 120px;
+	width: 160px;
+	position: absolute;
+	top: 50px;
+	margin-left: 760px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	font-family: monospace;
+	line-height: 25px;
+	/*display: none;*/
+}
+.ser{
+	color: black;
+}
+.ser:hover{
+	color: red;
+}
+.seminar{
+	color: black;
+	font-size: 18px;
+	background-color: mintcream;
+	height: 70px;
+	width: 165px;
+	position: absolute;
+	top: 50px;
+	margin-left: 853px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	font-family: monospace;
+	line-height: 25px;
+	/*display: none;*/
+}
+.sem{
+	color: black;
+}
+.sem:hover{
+	color: red;
+}
+.resimg{
+	margin-top: 200px;
+	position: absolute;
+	left:500px;
+	display: none;
+}
+.reslinks{
+	margin-top: 270px;
+	position: absolute;
+	left:367px;
+	font-size: 25px;
+	background-color: black;
+	/*font-family: monospace;*/
+	padding-left: 8px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 8px;
+	display: none;
+}
+.res{
+	color: white;
+	text-decoration: none;
+}
+.res:action{
+	color: red;
+}
+#ministRY{
+	color: black;
+	font-size: 18px;
+	background-color: mintcream;
+	height: 190px;
+	width: 180px;
+	position: absolute;
+	top: 200px;
+	margin-left: 169px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	font-family: monospace;
+	line-height: 25px;
+	display: none;
+}
+#sermON{
+	color: black;
+	font-size: 18px;
+	background-color: mintcream;
+	height: 120px;
+	width: 160px;
+	position: absolute;
+	top: 345px;
+	margin-left: 189px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	font-family: monospace;
+	line-height: 25px;
+	display: none;
+}
+#eduC{
+	color: black;
+	font-size: 18px;
+	background-color: mediumpurple;
+	height: 100px;
+	width: 160px;
+	position: absolute;
+	top: 342px;
+	margin-left: -1px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	font-family: monospace;
+	line-height: 25px;
+	display: none;
+}
+#seminAR{
+	color: black;
+	font-size: 18px;
+	background-color: mintcream;
+	height: 70px;
+	width: 165px;
+	position: absolute;
+	top: 372px;
+	margin-left: 184px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	font-family: monospace;
+	line-height: 25px;
+	display: none;
+}
+
+@media (max-width: 920px){
+	header{
+		width: 910px;
+		height: 120px;
+		/*position: fixed;*/
+	}
+	.logo{
+		width: 110px;
+	}
+	.true{
+		margin-left: 150px;
+		font-size: 40px;
+	}
+	.motto{
+		margin-left: 205px;
+		font-size: 32px;
+		margin-top: -40px;
+	}
+	.links{
+		display: none;
+	}
+	.resimg{
+	margin-top: 120px;
+	position: absolute;
+	width: 100px;
+	left:10px;
+	display: block;
+	}
+	.reslinks{
+	margin-top: 240px;
+	position: absolute;
+	left:1px;
+	font-size: 28px;
+	line-height: 40px;
+	background-color: rgba(0, 0, 0, 0.7);
+	/*font-family: monospace;*/
+	padding-left: 8px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 8px;
+	display: block;
+	}
+	.res{
+	color: white;
+	text-decoration: none;
+	}
+	.res:action{
+	color: red;
+	}
+	#ministRY{
+	color: black;
+	font-size: 25px;
+	background-color: mintcream;
+	height: 280px;
+	width: 240px;
+	position: absolute;
+	top: 340px;
+	margin-left: -7px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	font-family: monospace;
+	line-height: 35px;
+	display: block;
+	}
+	#sermON{
+	color: black;
+	font-size: 25px;
+	background-color: mintcream;
+	height: 160px;
+	width: 230px;
+	position: absolute;
+	top: 380px;
+	margin-left: -7px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	font-family: monospace;
+	line-height: 35px;
+	display: block;
+	}
+	#eduC{
+	color: black;
+	font-size: 25px;
+	background-color: mediumpurple;
+	height: 100px;
+	width: 200px;
+	position: absolute;
+	top: 232px;
+	margin-left: -7px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	font-family: monospace;
+	line-height: 25px;
+	display: block;
+}
+	#seminAR{
+	color: black;
+	font-size: 25px;
+	background-color: mintcream;
+	height: 90px;
+	width: 230px;
+	position: absolute;
+	top: 280px;
+	margin-left: -7px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	font-family: monospace;
+	line-height: 25px;
+	display: block;
+	}
+	.need{
+	margin-left: 500px;
+	font-size: 26px;
+	position: absolute;
+	top: 830px;
+	background-color: rgba(178, 190, 181, 0.8);
+	height: 30px;
+	width: 280px;
+	padding-top: 2px;
+	padding-left: 7px;
+	border-radius: 4px;
+	}
+	.footimg{
+	position: absolute;
+	top: -20px;
+	margin-left: 15px;
+	}
+	.late{
+	margin-left: 400px;
+	position: absolute;
+	top: 300px;
+	font-size: 28px;
+	}
+	.stud{
+	background-color: skyblue;/*rgba(178, 190, 181, 0.8);*/
+	height: 30px;
+	width: 155px;
+	padding-right: 2px;
+	padding-left: 7px;
+	border: 1px dashed red;
+	border-radius: 4px;
+	padding-bottom: 2px;
+	margin-left: 85px;
+	}
+	.dive{
+	position: absolute;
+	top: 680px;
+	background-color: skyblue;
+	color: white;
+	width: 910px;
+	margin-left: -9px;
+	height: 60px;
+	padding-top: 20px;
+	font-family: sans-serif;
+	}
+	.labor{
+	margin-left: 338px;
+	font-size: 29px;
+	margin-top: -70px;
+
+	}
+	.come{
+	margin-left: 7px;
+	font-size: 32px;
+	margin-top: 5px;
+	font-weight: bolder;
+	font-family: cursive;
+	/*text-decoration: underline;*/
+	color: purple;
+	text-shadow: 2px 2px gold;
+	}
+	.wow{
+	position: absolute;
+	top: 760px;
+	margin-left: -9px;
+	background-color: white;
+	color: black;
+	width: 914px;
+	height: 2000px;
+	}
+	.steps{
+	position: absolute;
+	margin-left: 320px;
+	font-size: 40px;
+	font-family: fantasy;
+	letter-spacing: 2px;
+	text-decoration-line: underline;
+	}
+	.form{
+	position: absolute;
+	top: 1780px;
+	width: 60%;
+	/*border: 2px solid black;*/
+	margin-left: 280px;
+	margin-top: 10px;
+	}
+	input{
+	width: 320px;
+	height: 40px;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	margin-bottom: 20px;
+	}
+	textarea{
+	border-right: none;
+	border-left: none;
+	border-top: none;
+	margin-bottom: 40px;
+	}
+	button{
+	margin-left: 232px;
+	width: 80px;
+	height: 40px;
+	background-color: yellow;
+	color: black;
+	border-radius: 8px;
+	font-size: 15px;
+	margin-top: -30px;
+	}
+	button:hover{
+	color: brown;
+	background-color: skyblue;
+	border: none;
+	}
+	.pray{
+	position: absolute;
+	top: 1450px;
+	margin-left: 200px;
+	width: 500px;
+	height: 250px;
+	border: 2px solid red;
+	border-radius: 50%;
+	}
+	.sins1{
+	position: absolute;
+	top: 850px;
+	margin-left: 240px;
+	background-color: yellow;
+	color: brown;
+	width: 420px;
+	height: 50px;
+	padding-top: 10px;
+	padding-left: 25px;
+	font-size: 27px;
+	font-weight: bolder;
+	border-radius: 7px;
+	}
+	.sins2{
+	position: absolute;
+	top: 930px;
+	margin-left: 240px;
+	background-color: yellow;
+	color: brown;
+	width: 420px;
+	height: 50px;
+	padding-top: 10px;
+	padding-left: 25px;
+	font-size: 27px;
+	font-weight: bolder;
+	border-radius: 7px;
+	}
+	.sins3{
+	position: absolute;
+	top: 1008px;
+	margin-left: 240px;
+	background-color: yellow;
+	color: brown;
+	width: 420px;
+	height: 50px;
+	padding-top: 10px;
+	padding-left: 25px;
+	font-size: 27px;
+	font-weight: bolder;
+	border-radius: 7px;
+	}
+	.sins4{
+	position: absolute;
+	top: 1085px;
+	margin-left: 240px;
+	background-color: yellow;
+	color: brown;
+	width: 420px;
+	height: 50px;
+	padding-top: 10px;
+	padding-left: 25px;
+	font-size: 27px;
+	font-weight: bolder;
+	border-radius: 7px;
+	}
+	.sins5{
+	position: absolute;
+	top: 1165px;
+	margin-left: 240px;
+	background-color: yellow;
+	color: brown;
+	width: 420px;
+	height: 73px;
+	padding-top: 10px;
+	padding-left: 25px;
+	font-size: 27px;
+	font-weight: bolder;
+	border-radius: 7px;
+	}
+	.sins6{
+	position: absolute;
+	top: 1265px;
+	margin-left: 240px;
+	background-color: yellow;
+	color: brown;
+	width: 420px;
+	height: 73px;
+	padding-top: 10px;
+	padding-left: 25px;
+	font-size: 27px;
+	font-weight: bolder;
+	border-radius: 7px;
+	}
+	.ending{
+	position: absolute;
+	top: 2210px;
+	width: 913px;
+	margin-left: -9px;
+	background-color: skyblue;
+	height: 150px;
+
+	}
+	.log0{
+	position: absolute;
+	top: 2400px;
+	margin-left: 400px;
+	}
+	.the{
+	position: absolute;
+	top: 2500px;
+	margin-left: 220px;
+	font-size: 30px;
+	}
+	.mot{
+	font-size: 26px;
+	color: purple;
+	margin-left: 65px;
+	}
+	.foot{
+	position: absolute;
+	top: 2650px;
+	margin-left: 2px;
+	/*text-align: center;*/
+	line-height: 30px;
+	font-size: 22px;
+	}
+}
+
+@media (max-width: 500px){
+	body{
+	background-image: url(./images/008.JPG);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	}
+	header{
+		width: 415px;
+	}
+	.links{
+		display: none;
+	}
+	.logo{
+	margin-left: -40px;
+	margin-top: -15px;
+	}
+	.true{
+	margin-top: -53px;
+	margin-left: 60px;
+	margin-bottom: 25px;
+	font-size: 20px;
+	font-family: cursive;
+	color: white;
+	}
+	.resimg{
+	margin-top: 60px;
+	position: absolute;
+	left:10px;
+	display: block;
+	}
+	.reslinks{
+	margin-top: 120px;
+	position: absolute;
+	left:1px;
+	font-size: 18px;
+	line-height: 30px;
+	background-color: rgba(0, 0, 0, 0.7);
+	/*font-family: monospace;*/
+	padding-left: 8px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 8px;
+	display: block;
+	}
+	.res{
+	color: white;
+	text-decoration: none;
+	}
+	.res:action{
+	color: red;
+	}
+	#ministRY{
+	color: black;
+	font-size: 15px;
+	background-color: mintcream;
+	height: 190px;
+	width: 160px;
+	position: absolute;
+	top: 193px;
+	margin-left: -7px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	font-family: monospace;
+	line-height: 25px;
+	display: block;
+	}
+	#sermON{
+	color: black;
+	font-size: 15px;
+	background-color: mintcream;
+	height: 120px;
+	width: 135px;
+	position: absolute;
+	top: 225px;
+	margin-left: -7px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	font-family: monospace;
+	line-height: 25px;
+	display: block;
+	}
+	#eduC{
+	color: black;
+	font-size: 15px;
+	background-color: mediumpurple;
+	height: 100px;
+	width: 160px;
+	position: absolute;
+	top: 232px;
+	margin-left: -7px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	font-family: monospace;
+	line-height: 25px;
+	display: block;
+}
+	#seminAR{
+	color: black;
+	font-size: 15px;
+	background-color: mintcream;
+	height: 70px;
+	width: 145px;
+	position: absolute;
+	top: 255px;
+	margin-left: -7px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	font-family: monospace;
+	line-height: 25px;
+	display: block;
+	}
+	.need{
+	margin-left: 140px;
+	font-size: 14px;
+	position: absolute;
+	top: 530px;
+	background-color: rgba(178, 190, 181, 0.8);
+	height: 17px;
+	width: 170px;
+	padding-top: 2px;
+	padding-left: 7px;
+	border-radius: 4px;
+	}
+	.footimg{
+	position: absolute;
+	top: -18px;
+	margin-left: 25px;
+	}
+	.late{
+	margin-left: 70px;
+	position: absolute;
+	top: 300px;
+	font-size: 18px;
+	}
+	.stud{
+	background-color: skyblue;/*rgba(178, 190, 181, 0.8);*/
+	height: 20px;
+	width: 93px;
+	padding-right: 2px;
+	padding-left: 7px;
+	border: 1px dashed red;
+	border-radius: 4px;
+	padding-bottom: 2px;
+	margin-left: 75px;
+	}
+	.dive{
+	position: absolute;
+	top: 680px;
+	background-color: skyblue;
+	color: white;
+	width: 415px;
+	margin-left: -9px;
+	height: 60px;
+	padding-top: 20px;
+	font-family: sans-serif;
+	}
+	.labor{
+	margin-left: 232px;
+	font-size: 19px;
+	margin-top: -47px;
+
+	}
+	.come{
+	margin-left: 7px;
+	font-size: 22px;
+	margin-top: 5px;
+	font-weight: bolder;
+	font-family: cursive;
+	/*text-decoration: underline;*/
+	color: purple;
+	text-shadow: 2px 2px gold;
+	}
+	.wow{
+	position: absolute;
+	top: 760px;
+	margin-left: -9px;
+	background-color: white;
+	color: black;
+	width: 415px;
+	height: 1630px;
+	}
+	.steps{
+	position: absolute;
+	margin-left: 65px;
+	font-size: 30px;
+	font-family: fantasy;
+	letter-spacing: 2px;
+	text-decoration-line: underline;
+	}
+	.form{
+	position: absolute;
+	top: 1480px;
+	width: 20%;
+	/*border: 2px solid black;*/
+	margin-left: 20px;
+	margin-top: 10px;
+	}
+	input{
+	width: 320px;
+	height: 40px;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	margin-bottom: 20px;
+	}
+	textarea{
+	border-right: none;
+	border-left: none;
+	border-top: none;
+	margin-bottom: 40px;
+	}
+	button{
+	margin-left: 232px;
+	width: 80px;
+	height: 40px;
+	background-color: yellow;
+	color: black;
+	border-radius: 8px;
+	font-size: 15px;
+	margin-top: -30px;
+	}
+	button:hover{
+	color: brown;
+	background-color: skyblue;
+	border: none;
+	}
+	.pray{
+	position: absolute;
+	top: 1250px;
+	margin-left: 25px;
+	border: 2px solid red;
+	border-radius: 50%;
+	}
+	.sins1{
+	position: absolute;
+	top: 850px;
+	margin-left: -2px;
+	background-color: yellow;
+	color: brown;
+	width: 320px;
+	height: 30px;
+	padding-top: 10px;
+	padding-left: 25px;
+	font-size: 17px;
+	font-weight: bolder;
+	border-radius: 7px;
+	}
+	.sins2{
+	position: absolute;
+	top: 900px;
+	margin-left: -2px;
+	background-color: yellow;
+	color: brown;
+	width: 320px;
+	height: 30px;
+	padding-top: 10px;
+	padding-left: 25px;
+	font-size: 17px;
+	font-weight: bolder;
+	border-radius: 7px;
+	}
+	.sins3{
+	position: absolute;
+	top: 950px;
+	margin-left: -2px;
+	background-color: yellow;
+	color: brown;
+	width: 320px;
+	height: 30px;
+	padding-top: 10px;
+	padding-left: 25px;
+	font-size: 17px;
+	font-weight: bolder;
+	border-radius: 7px;
+	}
+	.sins4{
+	position: absolute;
+	top: 1000px;
+	margin-left: -2px;
+	background-color: yellow;
+	color: brown;
+	width: 320px;
+	height: 30px;
+	padding-top: 10px;
+	padding-left: 25px;
+	font-size: 17px;
+	font-weight: bolder;
+	border-radius: 7px;
+	}
+	.sins5{
+	position: absolute;
+	top: 1050px;
+	margin-left: -2px;
+	background-color: yellow;
+	color: brown;
+	width: 320px;
+	height: 53px;
+	padding-top: 10px;
+	padding-left: 25px;
+	font-size: 17px;
+	font-weight: bolder;
+	border-radius: 7px;
+	}
+	.sins6{
+	position: absolute;
+	top: 1123px;
+	margin-left: -2px;
+	background-color: yellow;
+	color: brown;
+	width: 320px;
+	height: 53px;
+	padding-top: 10px;
+	padding-left: 25px;
+	font-size: 17px;
+	font-weight: bolder;
+	border-radius: 7px;
+	}
+	.ending{
+	position: absolute;
+	top: 1860px;
+	width: 415px;
+	margin-left: -9px;
+	background-color: skyblue;
+	height: 150px;
+
+	}
+	.log0{
+	position: absolute;
+	top: 2080px;
+	margin-left: 100px;
+	}
+	.the{
+	position: absolute;
+	top: 2200px;
+	margin-left: 40px;
+	font-size: 20px;
+	}
+	.mot{
+	font-size: 15px;
+	color: purple;
+	margin-left: 65px;
+	}
+	.foot{
+	position: absolute;
+	top: 2300px;
+	margin-left: 2px;
+	/*text-align: center;*/
+	line-height: 25px;
+	}
+}
+

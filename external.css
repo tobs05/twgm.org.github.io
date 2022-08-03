@@ -1,0 +1,96 @@
+body{
+	/*background-color: skyblue;*/
+	background-image: url(./images/back3.JPG);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+/*img{
+	width: 470px;
+	margin: auto;
+}*/
+.cover{
+	width: 100%;
+	height: 640px;
+	background-color: rgba(135, 206, 235, 0.5);
+	color: white;
+}
+.true{
+	font-size: 70px;
+	font-weight: bolder;
+	font-family: fantasy;
+	letter-spacing: 3px;
+	/*margin-left: 90px;*/
+	text-align: center;
+}
+@keyframes blink{
+	0%{
+		opacity: 1;
+	}
+	50%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+.logo{
+	margin-left: 600px;
+	margin-top: 140px;
+}
+.logo{
+	animation: blink 0.8s linear infinite;
+	animation: blink 0.8s linear infinite;
+	animation: blink 0.8s linear infinite;
+}
+.motto{
+	font-size: 40px;
+	font-style: italic;
+	letter-spacing: normal;
+	color: purple;
+}
+@media (max-width: 600px){
+	body{
+	background-color: black;
+	/*background-image: url(./images/back1.JPG);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;*/
+	}
+	.true{
+	font-size: 38px;
+	font-weight: bolder;
+	font-family: fantasy;
+	letter-spacing: 3px;
+	margin-left: -28px;
+	text-align: center;
+	/*display: none;*/
+	}
+	.motto{
+	font-size: 20px;
+	font-style: italic;
+	letter-spacing: normal;
+	color: purple;
+	margin-left: 2px;
+	/*display: none;*/
+	}
+	.logo{
+	margin-left: 85px;
+	position: absolute;
+	left: -20px;
+	margin-top: 90px;
+	width: 50px;
+	}
+	.cover{
+	width: 72%;
+	height: 550px;
+	background-color: rgba(135, 206, 235, 0.5);
+	color: white;
+	/*position: fixed;*/
+	/*display: none;*/
+	}
+
+}
+
